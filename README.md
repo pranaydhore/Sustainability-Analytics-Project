@@ -1,5 +1,5 @@
 # 🌿 Sustainability Analytics & Carbon Dashboard
-*A Data Analytics & AI Project by **Paras Longadge***
+*A Data Analytics & AI Project by **Pranay Dhore***
 
 ---
 
