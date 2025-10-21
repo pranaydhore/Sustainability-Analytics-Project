@@ -1,6 +1,6 @@
 """
 Sustainability Analytics & Carbon Dashboard (Enhanced Multi-View Version)
-Author: Paras Longadge
+Author: Pranay Dhore
 """
 
 import streamlit as st
@@ -30,7 +30,7 @@ with st.sidebar:
     z_thresh = st.slider("🚨 Anomaly Z-score Threshold", 1.5, 4.0, 2.5, 0.1)
     show_tech = st.checkbox("Show Technical Analytics", value=True)
     st.markdown("---")
-    st.markdown("👤 **By:** Paras Longadge\n📊 Data Analytics + ML\n📅 2025")
+    st.markdown("👤 **By:** Pranay Dhore\n📊 Data Analytics + ML\n📅 2025")
 
 # ----------------------------------------
 # DATA LOADING
@@ -198,4 +198,5 @@ with tabs[6]:
     st.dataframe(daily_df[["Energy_kWh", "Carbon_Emission", "z_score"]].describe().T)
 
 st.markdown("---")
-st.caption("🌱 Built with Streamlit • Visualization-rich Dashboard • Paras Longadge © 2025")
+st.caption("🌱 Built with Streamlit • Visualization-rich Dashboard • Pranay Dhore © 2025")
+
